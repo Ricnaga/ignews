@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
-import { stripe } from '../services/api'
+import { stripe } from '../services/stripe'
 import { SubscribeButton } from '../components/SubscribeButton'
 import styles from './home.module.scss'
 
@@ -21,7 +21,7 @@ export default function Home({ product }: HomeProps) {
         <section className={styles.hero}>
           <span>👏Hey, welcome</span>
           <h1>News about the <span>React</span> world.</h1>
-          <p>Get access to theall applications <br />
+          <p>Get access to the all applications <br />
             <span>for {product.amount} month</span>
 
           </p>
@@ -36,7 +36,7 @@ export default function Home({ product }: HomeProps) {
 
 
 export const getStaticProps: GetStaticProps = async () => {
-  const price = await stripe.prices.retrieve('price_1IXxldF3f3UcoFHy8hE7H25P')
+  const price = await stripe.prices.retrieve('price_1IYbFOGBCAHlfEGO5PARiKPH')
 
   const product = {
     priceId: price.id,

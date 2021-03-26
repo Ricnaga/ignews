@@ -37,7 +37,7 @@ export const getServerSideProps: GetServerSideProps = async ({ req, params }) =>
     const session = await getSession({ req })
     const { slug } = params
 
-    if (!session.activeSubscription) {
+    if (!session?.activeSubscription) {
         return {
             redirect: {
                 destination: '/',
@@ -46,7 +46,7 @@ export const getServerSideProps: GetServerSideProps = async ({ req, params }) =>
         }
     }
 
-    const prismic = getPrismicClient()
+    const prismic = getPrismicClient(req)
     const response = await prismic.getByUID('publication', String(slug), {})
 
     const post = {

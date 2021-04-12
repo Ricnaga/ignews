@@ -4,14 +4,14 @@
 
 ### <div align="center"> Conteúdo de curso criado pela equipe Rocketseat abordando conceitos sobre: </div>
 
-#### 8. Typescript e a conceitos de tipagem
-#### 1. ReactJS e seus conceitos
-#### 1. NextJS e seus conceitos
-#### 1. API context
-#### 1. Criação de dados no Prismic CMS
-#### 1. Armazenamento de dados no Fauna DB
-#### 1. Simulação de métodos de pagamento utilizando o Stripe
-#### 2. Estilizações básicas com SASS
+#### 1. Typescript e a conceitos de tipagem
+#### 2. ReactJS e seus conceitos
+#### 3. NextJS e seus conceitos
+#### 4. API context
+#### 5. Criação de dados no Prismic CMS
+#### 6. Armazenamento de dados no Fauna DB
+#### 7. Simulação de métodos de pagamento utilizando o Stripe
+#### 8. Estilizações básicas com SASS
 
 ## <div align="center"> Sumário </div>
 <!--ts-->

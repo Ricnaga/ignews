@@ -12,7 +12,7 @@
 #### 6. Armazenamento de dados no Fauna DB
 #### 7. Simulação de métodos de pagamento utilizando o Stripe
 #### 8. Estilizações básicas com SASS
-#### 8. Testes unitários com Jest
+#### 9. Testes unitários com Jest
 
 ## <div align="center"> Sumário </div>
 <!--ts-->
@@ -51,6 +51,7 @@ $ yarn dev (caso não utilize o yarn: npm run dev)
 - [Typescript](https://www.typescriptlang.org/)
 - [React JS](https://pt-br.reactjs.org/)
 - [Next JS](https://nextjs.org/)
+- [Jest JS](https://jestjs.io/)
 - [Jest](https://jestjs.io/)
 - [Stripe](https://stripe.com/en-br)
 - [Fauna DB](https://fauna.com/)

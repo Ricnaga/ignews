@@ -44,14 +44,9 @@ $ yarn dev (caso não utilize o yarn: npm run dev)
 ```
 
 ##  <div align="center">Tecnologias utilizadas</div>
-- [HTML](https://www.w3.org/HTML)
 - [SASS](https://sass-lang.com/)
-- [NodeJS](https://nodejs.org/en/)
-- [Git Bash](https://gitforwindows.org/)
 - [Typescript](https://www.typescriptlang.org/)
-- [React JS](https://pt-br.reactjs.org/)
 - [Next JS](https://nextjs.org/)
-- [Jest JS](https://jestjs.io/)
 - [Jest](https://jestjs.io/)
 - [Stripe](https://stripe.com/en-br)
 - [Fauna DB](https://fauna.com/)
@@ -61,8 +56,8 @@ $ yarn dev (caso não utilize o yarn: npm run dev)
 ## <div align="center">Autor</div>
 <div align="center">Atividade desenvolvida no curso ignite pela equipe <a href="https://rocketseat.com.br/">Rocketseat</a>, realizados por minha pessoa.
 Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona.<br>
-<a href="https://www.linkedin.com/in/ricardo-nagatomy-56553254"><img src="https://img.shields.io/badge/-RicardoNaga-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
-<a href="https://app.rocketseat.com.br/me/ricardo-nagatomy-08130"><img src="https://img.shields.io/badge/-Rocketseat-000?style=flat-square&logo=&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/ricardo-nagatomy"><img src="https://img.shields.io/badge/-RicardoNaga-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
+<a href="https://app.rocketseat.com.br/me/ricardo-nagatomy"><img src="https://img.shields.io/badge/-Rocketseat-000?style=flat-square&logo=&logoColor=white"></a>
 </div>
 
 #
